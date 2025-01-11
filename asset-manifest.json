@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-keeper-app/static/css/main.99b79123.css",
-    "main.js": "/react-keeper-app/static/js/main.87fc7500.js",
+    "main.css": "/react-keeper-app/static/css/main.bf8af882.css",
+    "main.js": "/react-keeper-app/static/js/main.df91b884.js",
     "index.html": "/react-keeper-app/index.html",
-    "main.99b79123.css.map": "/react-keeper-app/static/css/main.99b79123.css.map",
-    "main.87fc7500.js.map": "/react-keeper-app/static/js/main.87fc7500.js.map"
+    "main.bf8af882.css.map": "/react-keeper-app/static/css/main.bf8af882.css.map",
+    "main.df91b884.js.map": "/react-keeper-app/static/js/main.df91b884.js.map"
   },
   "entrypoints": [
-    "static/css/main.99b79123.css",
-    "static/js/main.87fc7500.js"
+    "static/css/main.bf8af882.css",
+    "static/js/main.df91b884.js"
   ]
 }
