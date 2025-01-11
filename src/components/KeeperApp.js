@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function KeeperComplete() {
 
@@ -31,6 +33,7 @@ function KeeperComplete() {
 
   return (
     <div>
+      <Header/>
       <center><h1>Welcome Home!!</h1></center>
       <CreateArea onAdd={addNote} />
       {notes.map((noteItem, index) => {
@@ -44,6 +47,7 @@ function KeeperComplete() {
           />
         );
       })}
+      <Footer/>
     </div>
   );
 }
