@@ -104,6 +104,10 @@ form.create-note button {
     outline: none;
 }
 
+center {
+    margin: 20px auto;
+    opacity: 60%;
+}
 a {
     text-decoration: none;
     color: white !important;

@@ -31,6 +31,7 @@ function KeeperComplete() {
 
   return (
     <div>
+      <center><h1>Welcome Home!!</h1></center>
       <CreateArea onAdd={addNote} />
       {notes.map((noteItem, index) => {
         return (

@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <h1>
-        <a href="/react-keeper-app/keeper-app">
+        <a href="/">
         <HighlightIcon />
         Keeper</a>
       </h1>

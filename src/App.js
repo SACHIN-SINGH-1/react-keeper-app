@@ -9,11 +9,10 @@ function App() {
   return (
     
     <div>
-      <Router basename="/react-keeper-app">
+      <Router>
           <Header/>
           <Routes>
-            <Route path='/' element={<center><h1>Welcome Home!!</h1></center>} />
-            <Route path='/keeper-app' element={<KeeperApp />} />
+            <Route path='/' element={<KeeperApp />} />
             <Route path='/test' element={'It is a Test Route!'} />
           </Routes>
           <Footer/>
