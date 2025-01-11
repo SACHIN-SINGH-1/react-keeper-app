@@ -6,9 +6,9 @@ import KeeperApp from "./components/KeeperApp";
 function App() {
   return (
     <div>
-      <Router basename="/react-keeper-app">
+      <Router>
           <Routes>
-            <Route path='/' element={<KeeperApp/>} />
+            <Route path='/react-keeper-app' element={<KeeperApp/>} />
             <Route path='/test' element={'It is a Test Route!'} />
           </Routes>
         </Router>
