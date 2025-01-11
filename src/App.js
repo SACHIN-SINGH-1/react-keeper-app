@@ -12,9 +12,9 @@ function App() {
       <Router>
           <Header/>
           <Routes>
-            <Route path='/' element={<center><h1>Welcome Home!!</h1></center>} />
+            {/* <Route path='/' element={<center><h1>Welcome Home!!</h1></center>} /> */}
+            <Route path='/' element={<KeeperApp />} />
             <Route path='/test' element={'Proceed Ahead'} />
-            <Route path='/keeper-app' element={<KeeperApp />} />
           </Routes>
           <Footer/>
         </Router>
