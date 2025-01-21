@@ -32,21 +32,25 @@ function KeeperComplete() {
   }
 
   return (
-    <div>
+    <div className="wrapper">
       <Header/>
-      <center><h1>Welcome Home!!</h1></center>
-      <CreateArea onAdd={addNote} />
-      {notes.map((noteItem, index) => {
-        return (
-          <Note
-            key={index}
-            id={index}
-            title={noteItem.title}
-            content={noteItem.content}
-            onDelete={deleteNote}
-          />
-        );
-      })}
+      <main>
+        <h1 className="heading">Welcome Home!!</h1>
+        <CreateArea onAdd={addNote} />
+          <div className="notes">
+          {notes.map((noteItem, index) => {
+            return (
+              <Note
+                key={index}
+                id={index}
+                title={noteItem.title}
+                content={noteItem.content}
+                onDelete={deleteNote}
+              />
+            );
+          })}
+          </div>
+      </main>
       <Footer/>
     </div>
   );
